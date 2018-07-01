@@ -5,7 +5,7 @@ package com.sort;
  * @author Vishal
  *
  */
-public class Student {
+public class Student{
 
 	/**
 	 * Student Id.
@@ -32,22 +32,38 @@ public class Student {
 	 */
 	private String department;
 
+	/**
+	 * @param studentId - student Id
+	 */
+	public void setStudentId(final int studentId) {
+		this.studentId = studentId;
+	}
 
 	/**
-	 *
-	 * @param studentId - student Id
 	 * @param firstName - students first name
+	 */
+	public void setFirstName(final String firstName) {
+		this.firstName = firstName;
+	}
+
+	/**
 	 * @param lastName - students last name
+	 */
+	public void setLastName(final String lastName) {
+		this.lastName = lastName;
+	}
+
+	/**
 	 * @param yearOfStudy - students year of study
+	 */
+	public void setYearOfStudy(final int yearOfStudy) {
+		this.yearOfStudy = yearOfStudy;
+	}
+
+	/**
 	 * @param department - students department
 	 */
-	public Student(final int studentId,  final String firstName,
-			final String lastName, final int yearOfStudy,
-			final String department) {
-		this.studentId = studentId;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.yearOfStudy = yearOfStudy;
+	public void setDepartment(final String department) {
 		this.department = department;
 	}
 
