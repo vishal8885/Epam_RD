@@ -1,0 +1,4 @@
+8750,Akhl,shiva,4,cse
+0218,nagarjun,reddy,3,it
+0597,sai,krishna,2,ece
+2567,kamal,sardiwal,1,eee	
